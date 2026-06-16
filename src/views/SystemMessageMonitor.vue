@@ -230,7 +230,7 @@ onIonViewWillEnter(async () => {
   gap: 10px;
 }
 
-.paginatio ion-select
+.pagination ion-select
 {
   max-width: 150px;
 }

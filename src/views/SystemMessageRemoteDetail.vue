@@ -14,8 +14,7 @@
         <div class="header">
           <div class="title">
             <h1>{{ form.systemMessageRemoteId.value || translate("New Remote System") }}</h1>
-            <p>{{ form.description.value || translate("Configure remote system connectivity and inspect related
-              messages.") }}</p>
+            <p>{{ form.description.value || translate("Configure remote system connectivity and inspect related messages.") }}</p>
           </div>
           <div class="header-actions">
             <ion-button fill="outline" @click="saveRemote">{{ translate("Save") }}</ion-button>
